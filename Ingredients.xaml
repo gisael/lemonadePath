@@ -63,12 +63,12 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="How much water (in ml) do you want in your lemonade" Title="Lemonade">
       <ui:InputDialog.Result>
-        <OutArgument x:TypeArguments="ui:GenericValue">[out_water]</OutArgument>
+        <OutArgument x:TypeArguments="x:Int32">[out_water]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
     <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="How many lemons do we need?" Title="Lemonade">
       <ui:InputDialog.Result>
-        <OutArgument x:TypeArguments="ui:GenericValue">[out_lemon]</OutArgument>
+        <OutArgument x:TypeArguments="x:Int32">[out_lemon]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
   </Sequence>
